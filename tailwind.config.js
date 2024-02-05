@@ -19,6 +19,11 @@ module.exports = {
         sm: '13px',
         base: '15px',
       },
+      spacing: {
+        '75': '311px',
+        '90': '350px',
+        '150': '540px',
+      },
     },
   },
   plugins: [],

@@ -12,38 +12,51 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Four card feature section</title>
+
+  <style>
+    html {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100%;
+    }
+
+    body {
+      min-height: 100vh;
+    }
+  </style>
 </head>
-<body class="font-Poppins">
+<body class="font-Poppins bg-veryLightGray text-veryDarkBlue flex flex-col justify-center items-center m-auto">
   
-  <main>
-    <section>
-      <h3>Reliable, efficient delivery</h3>
-      <h1>Powered by Technology</h1>
-      <p>
+  <main class="bg-white mt-12 w-75 md:w-11/12 md:mt-0">
+    <div class="md:max-w-150">
+      <h3 class="text-2xl font-extralight text-center md:text-4xl">Reliable, efficient delivery</h3>
+      <h1 class="text-2xl font-semibold text-center md:text-4xl py-3">Powered by Technology</h1>
+      <p class="opacity-50 text-base text-center">
         Our Artificial Intelligence powered tools use millions of project data points
         to ensure that your project is successful
       </p>
-    </section>
+    </div>
 
-    <section>
+    <section class="md:max-w-90">
       <h2>Supervisor</h2>
       <p>Monitors activity to identify project roadblocks</p>
       <img src="../images/icon-supervisor.svg" alt="Supervisor Icon">
     </section>
 
-    <section>
+    <section class="md:max-w-90">
       <h2>Team Builder</h2>
       <p>Scans our talent network to create the optimal team for your project</p>
       <img src="../images/icon-team-builder.svg" alt="Team Builder Icon">
     </section>
 
-    <section>
+    <section class="md:max-w-90">
       <h2>Karma</h2>
       <p>Regularly evaluates our talent to ensure quality</p>
       <img src="../images/icon-karma.svg" alt="Karma Icon">
     </section>
 
-    <section>
+    <section class="md:max-w-90">
       <h2>Calculator</h2>
       <p>Uses data from past projects to provide better delivery estimates</p>
       <img src="../images/icon-calculator.svg" alt="Calculator Icon">
