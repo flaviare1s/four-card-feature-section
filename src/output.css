@@ -552,6 +552,14 @@ video {
   margin-top: 3rem;
 }
 
+.mt-48 {
+  margin-top: 12rem;
+}
+
+.mt-44 {
+  margin-top: 11rem;
+}
+
 .flex {
   display: flex;
 }
@@ -578,6 +586,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .bg-veryLightGray {
@@ -725,6 +737,10 @@ video {
     order: 9999;
   }
 
+  .lg\:order-3 {
+    order: 3;
+  }
+
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
@@ -788,6 +804,10 @@ video {
 
   .lg\:justify-center {
     justify-content: center;
+  }
+
+  .lg\:place-self-center {
+    place-self: center;
   }
 
   .lg\:self-center {
